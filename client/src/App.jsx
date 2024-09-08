@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import PostsList from './Components/UX/PostsList';
 import './App.css'
 import { BrowserRouter as Router, Link } from 'react-router-dom';
@@ -12,6 +11,7 @@ function App() {
     <Router>
       <nav>
         <Link to="/">Accueil</Link>
+        <Link to="/create-post">Créer un article</Link>
       </nav>
       <AppRoutes />
     </Router>
